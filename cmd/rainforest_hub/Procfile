@@ -1,0 +1,1 @@
+rainforest_hub: nats-server -DVV -c rainforest_hub.conf

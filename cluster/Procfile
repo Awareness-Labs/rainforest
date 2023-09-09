@@ -1,0 +1,3 @@
+rainforest_hub: nats-server  -c rainforest_hub.conf
+rainforest_leaf_0: nats-server  -c rainforest_leaf_0.conf
+rainforest_leaf_1: nats-server  -c rainforest_leaf_1.conf

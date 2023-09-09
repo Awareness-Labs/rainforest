@@ -1,0 +1,12 @@
+version: v1
+managed:
+  enabled: true
+  go_package_prefix:
+    default: github.com/Awareness-Labs/rainforest/pkg/proto
+plugins:
+  - plugin: buf.build/protocolbuffers/go
+    out: pkg/proto
+    opt: paths=source_relative
+  - plugin: buf.build/bufbuild/connect-go
+    out: pkg/proto
+    opt: paths=source_relative

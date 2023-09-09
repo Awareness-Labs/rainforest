@@ -1,0 +1,17 @@
+syntax = "proto3";
+package core.v1;
+
+enum DataProductType {
+    DATA_PRODUCT_TYPE_UNSPECIFIED = 0;
+    DATA_PRODUCT_TYPE_STATE = 1;
+    DATA_PRODUCT_TYPE_EVENT = 2;
+    DATA_PRODUCT_TYPE_OBJECT = 3;
+}
+
+message DataProduct {
+    string name = 1;
+    string domain = 2;
+    DataProductType type = 4;
+    repeated DataProduct source_data_products = 5; 
+    string description = 6;
+}
