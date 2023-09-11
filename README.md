@@ -32,8 +32,6 @@ With Rainforest, transition your data infrastructure to a nimble, distributed, a
 ## Contributing
 If you are interested in contributing to Rainforest, read about our... ```/docs```
 
-
-
 ## Roadmap
 <!-- The Rainforest product roadmap can be found [here](https://nats.io/about/#roadmap). -->
 
