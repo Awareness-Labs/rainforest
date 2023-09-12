@@ -1,5 +1,8 @@
 # rainforest: Ultra Light-weight Data Mesh Engine 
 
+* [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/7824/badge)](https://www.bestpractices.dev/projects/7824) 目標: 達到 openssf best practice 衝到 100%
+
+
 In an era where the data landscape is undergoing massive transformation, centralized solutions like traditional data lakes and warehouses struggle to meet the needs of distributed organizations and rapid iterations. Enter Rainforest, an ultra-lightweight Data Mesh core engine.
 
 ![](/docs/img/arch.jpg)
